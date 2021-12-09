@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+legend{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+}
+
+button{
+    background-color: rgba(150, 142, 142, 0.411);
+    color: black;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: blue;
+    color: wheat;
+    cursor: pointer;
+    transition: 1s;
+}

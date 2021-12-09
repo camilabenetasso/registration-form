@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 2 | HTML</title>
+</head>
+
+<body>
+        <form action="" method="get">
+                <fieldset>
+                    <legend> Cadastro </legend>
+
+                    <div><br>
+                        <label form="nome"> Nome: </label>
+                        <br>
+                        <input type="text" name="nome" id="nome" required placeholder="Digite seu nome aqui">
+                    </div>
+
+                    <div><br>
+                        <label form="email"> E-mail: </label>
+                        <br>
+                        <input type="email" name="e-mail" id="email" required placeholder="Ex: meunome@email.com">
+                    </div>
+
+                    <div><br>
+                        <label form="idade"> Idade: </label>
+                        <br>
+                        <input type="number" min="12" name="idade" id="idade" step="1" placeholder="Digite sua idade">
+                    </div>
+
+                    <div><br>
+                        <label form="data-nascimento"> Data de Nascimento: </label>
+                        <br>
+                        <input type="date" name="data-nascimento" id="data-nascimento" required>
+                    </div>
+
+                    <div><br>
+                        <label form="redes-sociais">Onde você possui conta?</label>
+                        <br>
+                        <input type="checkbox" name="instagram"> Instagram
+
+                        <input type="checkbox" name="facebook"> Facebook
+
+                        <input type="checkbox" name="youtube"> YouTube
+                    </div>
+
+                    <div><br>
+                        <label for="sexo">Sexo:</label>
+                        <br>
+                        <input type="radio" name="genero" required> Masculino
+                        <input type="radio" name="genero" required> Feminino
+                        <input type="radio" name="genero" required> Neutro
+
+                        <div><br>
+                            <label form="cor-olhos">Cor dos Olhos:</label>
+                            <br>
+                            <input type="color" name="cor-olhos" id="cor-olhos" required>
+                        </div>
+
+                        <div><br>
+                            <label>Biografia</label>
+                            <br>
+                            <textarea name="bio" id="bio" cols="25" rows="3"></textarea>
+                            <br>
+
+                        </div>
+
+                        <div><br>
+                            <label>Foto do Perfil:</label>
+                            <br>
+                            <input type="file" name="arquivo id=" fotoperfil" required accept="images/*" multiple>
+                        </div>
+
+                        <div><br>
+                            <label>Telefone:</label>
+                            <br>
+                            <input type="tel" name="tel" inputmode="numeric" id="tel" required
+                                placeholder="Ex: (11) 98765-4321">
+                        </div>
+
+                        <div><br>
+                            <label>Link do Perfil do Facecook:</label>
+                            <br>
+                            <input type="url" name="url" id="url" required placeholder="https://facebook.com/">
+                        </div>
+
+                        <div><br>
+                            <label>Senha: </label>
+                            <br>
+                            <input type="password" id="senha" required min="6" max="8" inputmode="numeric"
+                                placeholder="**********">
+
+                        </div>
+
+                        <div><br>
+                            <button type="reset" name="reset">Limpar</button>
+                            <button type="submit" name="submit">Enviar dados</button>
+                        </div>
+
+            </form>
+            </fieldset>
+
+</body>
+
+</html>
